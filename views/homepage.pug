@@ -32,6 +32,14 @@ html
               li(ng-class="{ active: isActive('/releases')}")
                 a(href='/releases') Download
             auth-toolbar
+    .container
+      div(ng-view='')
+      .footer
+        p
+          i.fa.fa-fw.fa-code
+          |  with
+          i.fa.fa-fw.fa-heart
+          |  by Arek Sredzki
 
 
     // bower:js
